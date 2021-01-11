@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,900;1,300;1,500;1,600&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+  margin:0px 1px 0px 1px;
+}
+
+/* global container */
+
+
+.global-container{
+  padding: 20px 20px 100px 20px;
+}
+
+.simple-padding{
+  padding-right:15px;
+  padding-bottom:30px;
+}
+
+.line-design{
+   border-top: 1px dashed black;
+}
+
+
+/* header - jumbotron section */
+
+.jumbotron-fluid .ayn-logo{
+  margin:20px;
+  position:absolute;
+  bottom:85%;
+  padding-top:20px;
+  padding-left:20px;
+}
+
+.jumbotron-ayn{
+  position:relative;
+}
+
+.jumbotron{
+  min-height: 600px;
+}
+
+.container-content{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+
+.p-style-header{
+  font-style:normal;
+  font-family: 'Mulish', sans-serif;
+  font-size:15px;
+  color:#333333;
+}
+
+.p-style-light{
+  font-family: 'Mulish', sans-serif;
+  font-size:15px;
+  color:#333333;
+  font-weight:300 !important;
+  font-style: normal;
+}
+
+.button-resume{
+  border-radius:10px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* header jumbotron section end */
+
+.project-padding {
+  margin:10px;
+  padding-bottom:10px;
+}
+
+
+/* projects section */
+
+.img-thumbnail{
+  height:224px;
+  width:337px;
+}
+
+
+/* my profile */
+
+.list-style{
+  list-style-type: none;
+  font-style:normal;
+  font-size:15px;
+  color:#333333;
+}
+
+.list-style li{
+  margin:5px;
+}
+
+.workxp{
+  text-align:center;
+  font-family: 'Mulish', sans-serif;
+  color:#333333;
+  font-weight:lighter !important;
+  font-style: normal;
+}
+
+.padding-workxp{
+  padding-top:20px;
+}
+
+/* ion images section */ 
+
+.ionpadding{
+  margin-bottom:50px;
+}
+
+
+.imageion{
+  padding:20px 0px 5px 0px;
+  margin: 50px 0px 5px 0px;
+  display:flex;
+  justify-content:center;
+}
+
+.p-style-ion{
+  font-style:normal;
+  font-size:20px;
+  color:#333333;
+  text-align:center;
+}
+
+ion-icon {
+  font-size: 64px;
+}
+
+
+
+
+/* footer */
+
+.global-container-footer{
+  padding: 20px 20px 50px 20px;
+  background-color:#333333;
+  color:white;
+}
+
+.footer-email{
+  font-style:normal;
+  font-size:20px;
+  text-align:center;
+  font-family: 'Mulish', sans-serif;
+}
+
+.my-name{
+  text-align:right;
+  font-family: 'Mulish', sans-serif;
+}
+
+.footer-padding{
+  padding:15px 0 15px 0;
+}
+
+.name-padding{
+ padding:50px 5px 10px 5px;
+ text-align:center;
+}
+
+
+.aynmail{
+  transition: all .2s ease-in-out;
+  overflow:hidden;
+  display: block;
+}
+
+.aynmail:hover{
+  transform: scale(1.2);
+}
+
+.image-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* button scroll to top */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  scroll-behavior: smooth;
+}
+
+
